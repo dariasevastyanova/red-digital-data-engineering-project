@@ -8,7 +8,7 @@
     a.	Eliminated ASCII characters by converting the given file into CSV UTF-8 format 
     b.	No partitioning needed – dataset is too small. Potentially could use review_dt for it (horizontal partitioning)
     c.	Eliminated issue with parsing timestamp column – loaded it as string column and converted into datetime format after 
-3.	Performing the initial data examination (link here)
+3.	Performing the initial [data examination](https://github.com/dariasevastyanova/red-digital-data-engineering-project/blob/main/sql_code/01_init_data_analysis.sql)
 4.	Whiteboarding & brainstorming 
 5.	Building multidimensional schema (fact & dim tables) (link here)
 6.	Building ERD using https://dbdiagram.io/home source (link here)
