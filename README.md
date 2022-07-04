@@ -50,7 +50,7 @@ tbl-tiktok-dim-dt
 - review_dow [string]
 - review_dt_clean [date]
 
-## Data Qeustionnaire
+## Data Questionnaire
 
 - How many unique users were studied? What was the average score for all reviews over the period represented in the dataset?
 - What is the date range of the dataset? 
