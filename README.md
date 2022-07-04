@@ -18,37 +18,37 @@
 ## Tables Created 
 
 tiktok-data-init
-    - the initial csv doc was loaded 
-    - pretty column names created
-    - columns description added 
+- the initial csv doc was loaded 
+- pretty column names created
+- columns description added 
 
 tbl-tiktok-fact
-    - review_id [string]
-    - username [string]
-    - review_dt [datetime]
+- review_id [string]
+- username [string]
+- review_dt [datetime]
 
 tbl-tiktok-dim-users 
-    * username [string]
-    * thumbs_up [integer]
+- username [string]
+- thumbs_up [integer]
 
 tbl-tiktok-dim-reviews 
-    * review_id [string]
-    * review_txt [string]
-    * score [integer]
-    * reply_txt [string]
-    * reply_dt [datetime]
-    * review_version [string]
-    * major_release [integer]
-    * major_minor [float]
-    * minor_release [integer]
-    * patch_release [integer]
+- review_id [string]
+- review_txt [string]
+- score [integer]
+- reply_txt [string]
+- reply_dt [datetime]
+- review_version [string]
+- major_release [integer]
+- major_minor [float]
+- minor_release [integer]
+- patch_release [integer]
 
 tbl-tiktok-dim-dt 
-    * review_dt [datetime]
-    * review_hr [integer]
-    * review_dow_num [integer]
-    * review_dow [string]
-    * review_dt_clean [date]
+- review_dt [datetime]
+- review_hr [integer]
+- review_dow_num [integer]
+- review_dow [string]
+- review_dt_clean [date]
 
 ## Data Qeustionnaire
 
