@@ -19,13 +19,13 @@
 
 tiktok-data-init
     - the initial csv doc was loaded 
-    - pretty column names created  
+    - pretty column names created
     - columns description added 
 
 tbl-tiktok-fact
-    * review_id [string]
-    * username [string]
-    * review_dt [datetime]
+    - review_id [string]
+    - username [string]
+    - review_dt [datetime]
 
 tbl-tiktok-dim-users 
     * username [string]
@@ -52,11 +52,11 @@ tbl-tiktok-dim-dt
 
 ## Data Qeustionnaire
 
-●	How many unique users were studied? What was the average score for all reviews over the period represented in the dataset?
-●	What is the date range of the dataset? 
-●	Do you have any recommendations for column names? Are there any patterns you were able to glean from the data? 
-●	Does the review score change depending on the day, date, or time?
-●	Does a scenario exist that a user has more than one review, and if so, are the reviews approximately the same?
-●	What are the distinct review versions? 
-●	How many users responded to a review? If any, which users responded? 
-●	What is the tone of each response (angry, concerned, confused, etc.)? 
+- How many unique users were studied? What was the average score for all reviews over the period represented in the dataset?
+- What is the date range of the dataset? 
+- Do you have any recommendations for column names? Are there any patterns you were able to glean from the data? 
+- Does the review score change depending on the day, date, or time?
+- Does a scenario exist that a user has more than one review, and if so, are the reviews approximately the same?
+- What are the distinct review versions? 
+- How many users responded to a review? If any, which users responded? 
+- What is the tone of each response (angry, concerned, confused, etc.)? 
