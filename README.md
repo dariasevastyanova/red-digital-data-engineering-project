@@ -10,16 +10,16 @@
     c.	Eliminated issue with parsing timestamp column – loaded it as string column and converted into datetime format after 
 3.	Performing the initial [data examination](https://github.com/dariasevastyanova/red-digital-data-engineering-project/blob/main/sql_code/01_init_data_analysis.sql)
 4.	Whiteboarding & brainstorming 
-5.	Building multidimensional schema (fact & dim tables) (link here)
-6.	Building ERD using https://dbdiagram.io/home source (link here)
-7.	Answering all required questions (link here)
+5.	Building [multidimensional schema (fact & dim tables)](https://github.com/dariasevastyanova/red-digital-data-engineering-project/blob/main/sql_code/02_multidimensional_schema_build.sql)
+6.	Building [ERD](https://github.com/dariasevastyanova/red-digital-data-engineering-project/blob/main/visual_aid/erd.png) using https://dbdiagram.io/home source
+7.	Answering all [required questions](https://github.com/dariasevastyanova/red-digital-data-engineering-project/blob/main/sql_code/03_data_questionnaire.sql)
 
 
 ## Tables Created 
 
 tiktok-data-init
-    the initial csv doc was loaded
-    pretty column names created 
+    the initial csv doc was loaded 
+    pretty column names created  
     columns description added 
 
 tbl-tiktok-fact
