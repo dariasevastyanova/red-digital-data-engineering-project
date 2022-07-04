@@ -5,9 +5,9 @@
 
 1.	Reviewing all resources provided 
 2.	Loading the dataset from GCS into BQ
-    a.	Eliminated ASCII characters by converting the given file into CSV UTF-8 format 
-    b.	No partitioning needed – dataset is too small. Potentially could use review_dt for it (horizontal partitioning)
-    c.	Eliminated issue with parsing timestamp column – loaded it as string column and converted into datetime format after 
+    - a.	Eliminated ASCII characters by converting the given file into CSV UTF-8 format 
+    - b.	No partitioning needed – dataset is too small. Potentially could use review_dt for it (horizontal partitioning)
+    - c.	Eliminated issue with parsing timestamp column – loaded it as string column and converted into datetime format after 
 3.	Performing the initial [data examination](https://github.com/dariasevastyanova/red-digital-data-engineering-project/blob/main/sql_code/01_init_data_analysis.sql)
 4.	Whiteboarding & brainstorming 
 5.	Building [multidimensional schema (fact & dim tables)](https://github.com/dariasevastyanova/red-digital-data-engineering-project/blob/main/sql_code/02_multidimensional_schema_build.sql)
@@ -18,9 +18,9 @@
 ## Tables Created 
 
 tiktok-data-init
-    the initial csv doc was loaded 
-    pretty column names created  
-    columns description added 
+    - the initial csv doc was loaded 
+    - pretty column names created  
+    - columns description added 
 
 tbl-tiktok-fact
     * review_id [string]
